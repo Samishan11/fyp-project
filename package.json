@@ -1,0 +1,66 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-google-maps/api": "2.10.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "gapi-script": "^1.2.0",
+    "jquery": "^3.6.0",
+    "khalti-checkout-web": "^2.2.0",
+    "leaflet": "^1.8.0",
+    "local-reverse-geocoder": "^0.12.1",
+    "nominatim-geocoder": "^0.1.4",
+    "react": "^18.1.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-date-range": "^1.4.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.1.0",
+    "react-geocode": "^0.2.3",
+    "react-google-autocomplete": "^2.7.0",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.4.0",
+    "react-leaflet": "^4.0.0",
+    "react-messenger-customer-chat": "^0.8.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-bottom": "^4.2.0",
+    "react-simple-oauth2-login": "^0.5.3",
+    "react-toastify": "^9.0.1",
+    "sassy-datepicker": "^0.8.0",
+    "socket.io-client": "^4.5.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "proxy": "http://localhost:5000"
+}

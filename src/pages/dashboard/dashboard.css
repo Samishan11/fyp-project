@@ -1,0 +1,61 @@
+
+.userImage{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profileLink{
+    font-size: 15px;
+}
+.add-icon{
+    font-size: 17px;
+}
+.add-section{
+    background-color: #e9e9e9;
+}
+.reason{
+    font-size: 12px;
+}
+.infoText{
+    font-size: 15px;
+}
+.visitImgae{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.listingImage{
+    width: 92px;
+    height: 92px;
+}
+.propertyImage{
+    width: 120px;
+    height: 120px;
+}
+.propertyListImage{
+    width: 90px;
+    height: 90px;
+}
+/* buttons */
+.btn{
+  border-radius: 0;
+}
+/*Global*/
+
+.btn.btn-square {
+  border-radius: 0;
+}
+
+.active-nav{
+    background-color: #dcdcdc;
+}
+
+.n-item{
+    transition: 0.3s;
+}
+
+.n-item:hover{
+    background-color: #efeeee;
+}

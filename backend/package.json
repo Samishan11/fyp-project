@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "multer": "^1.4.4",
+    "node-fetch": "^3.2.6",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "otp-generator": "^4.0.0",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "react-circular-progressbar": "^2.1.0",
+    "socket.io": "^4.5.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  }
+}
