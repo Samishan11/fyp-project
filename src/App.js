@@ -39,9 +39,6 @@ import Buy from "./pages/dashboard/components/Buy";
 import { NotificationProvider } from "./context/Notificationcontext";
 import Contact from "./pages/Contact";
 import { CompareProvider } from "./context/Compare";
-import AdminDash from "./components/admin/AdminDash";
-import Manageuser from "./components/admin/Manageuser";
-import Adduser from "./components/admin/Adduser";
 function App() {
   const ProtectedAdmin = () => {
     function parseJwt(token) {
@@ -90,23 +87,6 @@ function App() {
                 element={<Contact></Contact>}
               ></Route>
 
-              <Route element={<ProtectedAdmin></ProtectedAdmin>}>
-                <Route
-                  exact
-                  path="/admin"
-                  element={<AdminDash></AdminDash>}
-                ></Route>
-                <Route
-                  exact
-                  path="/manage-user"
-                  element={<Manageuser></Manageuser>}
-                ></Route>
-                <Route
-                  exact
-                  path="/add-user"
-                  element={<Adduser></Adduser>}
-                ></Route>
-              </Route>
               <Route
                 exact
                 path="/my-listings"
